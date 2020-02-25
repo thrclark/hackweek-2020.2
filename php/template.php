@@ -1,17 +1,20 @@
-<?php 
+<?php
 $section = '';
-$page_title = 'Template';
+$page_title = 'asdf';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <?php include('includes/all-head-meta.php') ?>
-<?php include('includes/styles-main.php') ?>
+<?php include('includes/styles-admin.php') ?>
 </head>
-<body>
-<h1> <?php echo $page_title; ?></h1> feature branch test
-<?php include('includes/template-include.php') ?>
-<?php include('modals/modal-template.php') ?>
+<body class="int-admin">
+<?php include('includes/admin-navigation.php') ?>
+<div class="container mt-3 mt-md-5 mb-7">
+    <main class="main-content" id="main-content">
+        <h1 class="mb-3 mb-md-6 rbt-ts-23 rbt-ts-32-md-up"> <?php echo $page_title; ?></h1>
+        <p>sdfg sdfg sdfg sdfg sfdg sdgf sfdg sdg sdgf sdgf sdgf sdfg sdfg sdfg sdfg </p>
+       
+    </main>
+</div>
 <?php include('includes/all-footerscripts.php') ?>
-</body>
-</html>
